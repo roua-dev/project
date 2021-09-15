@@ -1,0 +1,17 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev \" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+  },
+  "bugs": {},
+  "description": ""
+}

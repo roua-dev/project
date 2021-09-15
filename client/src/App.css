@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  border-top: 2px solid #fff;
+}
+footer p {
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+
+.cart {
+  background: #333;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+.submit {
+  background: rgb(13, 235, 5);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+
+.btn{
+  display: flex;
+  
+  justify-content: space-between;
+  justify-items: center;
+}
+.logo{
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.card :hover{
+box-shadow: 10px 8 px 2 px red;
+}
